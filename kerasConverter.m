@@ -12,4 +12,4 @@ lgraph = importKerasLayers(model,'ImportWeights',true);
 % layers is given at: https://www.mathworks.com/help/deeplearning/ref/importkeraslayers.html
 
 net = assembleNetwork(lgraph);
-save('classifier','net');
+save('model','net');
