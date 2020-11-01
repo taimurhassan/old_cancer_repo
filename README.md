@@ -69,7 +69,7 @@ If you are using whole slide image dataset, then the following training and test
 
 1) Download the desired dataset
 2) Generate WSI patches using 'patchGenerator.m'
-3) Resize patches (to make them compatible with the proposed framework) using the script '…\training_utils\resizer.m' 
+3) Resize patches (to make them compatible with the proposed framework) using the script 'resizer.m' within 'training_utils' folder 
 4) Put the resized training patches in '…\trainingDataset\train_images' folder
 5) Put the resized training annotations (ground truth patches) in '…\trainingDataset\train_annotations' folder
 6) Put resized validation patches in '…\trainingDataset\val_images' folder
