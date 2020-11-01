@@ -2,7 +2,7 @@ clc
 clear all
 close all
 
-model = 'modelC.h5';
+model = 'model.h5';
 lgraph = importKerasLayers(model,'ImportWeights',true);
 
 % NOTE: MATLAB create placeholderLayers for the keras layers which are 
