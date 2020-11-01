@@ -69,13 +69,14 @@ If you are using whole slide image dataset, then the following training and test
 
 1) Download the desired dataset
 2) Generate WSI patches using 'patchGenerator.m'
-3) Put the training patches in '…\trainingDataset\train_images' folder
-4) Put the training annotations (ground truth patches) in '…\trainingDataset\train_annotations' folder
-5) Put validation patches in '…\trainingDataset\val_images' folder
-6) Put validation ground truth patches in '…\trainingDataset\val_annotations' folder. Note: the patches and their annotations should have same name and extension (preferably .png).
-7) Put test patches in '…\testingDataset\test_images' folder and their annotations in '…\testingDataset\test_annotations' folder
-8) Use 'trainer.py' file to train the proposed framework and then evaluate it on the test scans. The results on the test scans are saved in ‘…\testingDataset\segmentation_results’ folder. This script also saves the trained model in 'model.h5' file
-9) The trained models can also be ported to MATLAB using ‘kerasConverter.m’ (this step is optional and only designed to facilitate MATLAB users if they want to avoid Python analysis)
+3) Resize patches (to make them compatible with the proposed framework) using the script '…\training_utils\resizer.m' 
+4) Put the resized training patches in '…\trainingDataset\train_images' folder
+5) Put the resized training annotations (ground truth patches) in '…\trainingDataset\train_annotations' folder
+6) Put resized validation patches in '…\trainingDataset\val_images' folder
+7) Put resized validation ground truth patches in '…\trainingDataset\val_annotations' folder. Note: the patches and their annotations should have same name and extension (preferably .png).
+8) Put resized test patches in '…\testingDataset\test_images' folder and their annotations in '…\testingDataset\test_annotations' folder
+9) Use 'trainer.py' file to train the proposed framework and then evaluate it on the test scans. The results on the test scans are saved in ‘…\testingDataset\segmentation_results’ folder. This script also saves the trained model in 'model.h5' file
+10) The trained models can also be ported to MATLAB using ‘kerasConverter.m’ (this step is optional and only designed to facilitate MATLAB users if they want to avoid Python analysis)
 </p>
 
 ## Citation
