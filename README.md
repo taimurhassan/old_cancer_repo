@@ -22,7 +22,7 @@ To run the codebase, following libraries are required. Although, the framework i
 Alternatively, we also provide a yml file that contains all of these packages.
 
 ## Dataset
-Please download the desired dataset and follow the below-mentioned hierarchy to test the proposed framework:
+Please download the desired dataset and follow the below-mentioned hierarchy to train and test the proposed framework:
 ```
 ├── trainingDataset
 │   ├── train_images
