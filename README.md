@@ -86,7 +86,7 @@ If you use the proposed framework (or any part of this code in your research), p
 @article{Hassan2021Cancer,
   title   = {Autonomous Extraction of Gleason Patterns for Grading Prostate Cancer using Multi-Gigapixel Whole Slide Images},
   author  = {Taimur Hassan and Ayman El-Baz and Naoufel Werghi},
-  journal = {Submitted in IEEE International Symposium on Biomedical Imaging (ISBI)},
+  journal = {Submitted in IEEE International Conference on Image Processing (ICIP)},
   year = {2021}
 }
 ```
