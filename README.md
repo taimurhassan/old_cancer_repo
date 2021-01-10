@@ -2,7 +2,7 @@
 
 ## Introduction
 <p align="justify">
-This repository contains the implementation of our paper titled "Autonomous Extraction of Gleason Patterns for Grading Prostate Cancer using Multi-Gigapixel Whole Slide Images" currently under review in IEEE International Symposium on Biomedical Imaging (ISBI) 2021</p>
+This repository contains the implementation of our paper titled "Autonomous Extraction of Gleason Patterns for Grading Prostate Cancer using Multi-Gigapixel Whole Slide Images" currently under review in IEEE International Conference on Image Processing (ICIP) 2021</p>
 
 ![RAG-Netv2](/images/Fig2.png) 
 <p align="center"> Block Diagram of the Proposed Framework</p>
